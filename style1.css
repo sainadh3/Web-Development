@@ -1,0 +1,13 @@
+/* class selector: group all elements to a single class,used for many elements */
+.heading{
+    color: aqua;
+}
+/* id selector: is unique for only one element */
+#main{
+    color: aquamarine;
+}
+/* universal selector: apply style sheet to eth where stylesheet is active */
+*{
+    font-family: 'Times New Roman',serif;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html_CSS</title>
+    <!-- internal css -->
+    <!--Attribute selector - Select all h4 elements with draggable attribute -->
+    <style>
+        h4[draggable] {
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+    <!-- External css -->
+    <link rel="stylesheet" href="/style1.css" />
+</head>
+<body>
+    <!-- in line css & Elemetnal selector -->
+    <p style="color:black">This is in line css</p>
+    <hr>
+    <!-- internal css -->
+    <h4 draggable="true">This is internal css</h4>
+    <hr>
+    <!-- External css -->
+    <h5 class="heading">This is External CSS with class selector</h5>
+    <h5 id="main">This is External CSS with id selector</h5>
+</body>
+</html>
