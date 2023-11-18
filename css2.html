@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css2</title>
+    <style>
+        html{
+            background-color: #9EB8D9;
+            size: 30px;
+        }
+        h1{
+            size: 2rem;
+        }
+        #box{
+            background-color: maroon;
+            /* size of the element*/
+            width: 300px;
+            height: 300px;
+            /* making element aligning to center for images: width:50%; margin-left: 25%*/
+            margin: auto;
+            border: 5px solid grey;
+        }
+        #main{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        .boxmodel{
+            width: 200px;
+            height: 200px;
+        }
+        #mainbox{
+            width: 600px;
+            margin: auto;
+        }
+        #firstbox{
+            background-color: #0766AD;
+            margin-left: 200px;
+        }
+        #secondbox{
+            background-color: #29ADB2;
+            
+        }
+        #thirdbox{
+            background-color: #C5E898;
+            margin-left: 400px;
+        }   
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- making elements alignment to the center -->
+    <div id="box"></div>
+    <div id="main">
+        <h1 style="text-transform: uppercase;">maroon</h1>
+        <p>Life is better in Maroon shades.</p>
+    </div>
+    <!-- Box model -->
+    <div>
+        <div id="mainbox">
+            <div id="firstbox" class="boxmodel"></div>
+            <div id="secondbox" class="boxmodel"><div id="thirdbox" class="boxmodel"></div></div>
+        </div>
+    </div>
+</body>
+</html>
